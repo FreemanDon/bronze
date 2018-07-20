@@ -1,8 +1,8 @@
 package com.bronze.product.dao.model;
 
+import com.bronze.common.enums.ProductStatusEnum;
+import com.bronze.common.util.EnumUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.imooc.enums.ProductStatusEnum;
-import com.imooc.utils.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

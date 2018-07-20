@@ -1,8 +1,8 @@
 package com.bronze.product.dao.model;
 
 
-import com.imooc.enums.OrderStatusEnum;
-import com.imooc.enums.PayStatusEnum;
+import com.bronze.common.enums.OrderStatusEnum;
+import com.bronze.common.enums.PayStatusEnum;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

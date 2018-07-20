@@ -1,5 +1,6 @@
 package com.bronze.product.dao;
 
+import com.bronze.common.util.MybatisGeneratorUtil;
 import com.bronze.common.util.PropertiesFileUtil;
 
 import java.util.HashMap;
