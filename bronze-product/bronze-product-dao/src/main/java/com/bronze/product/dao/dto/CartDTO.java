@@ -16,6 +16,9 @@ public class CartDTO {
     /*商品数量*/
     private Integer productQuantity;
 
+    public CartDTO() {
+    }
+
     public CartDTO(String productId, Integer productQuantity) {
         this.productId = productId;
         this.productQuantity = productQuantity;

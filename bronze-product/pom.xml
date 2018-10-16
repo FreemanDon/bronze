@@ -17,6 +17,7 @@
         <module>bronze-product-rpc-service</module>
         <module>bronze-product-rpc-api</module>
         <module>bronze-product-common</module>
+        <module>bronze-product-client</module>
     </modules>
 
 </project>

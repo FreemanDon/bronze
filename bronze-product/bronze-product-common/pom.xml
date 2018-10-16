@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bronze-product-common</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.donsj</groupId>
+            <artifactId>bronze-common</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

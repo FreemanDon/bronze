@@ -16,7 +16,7 @@ import java.util.List;
 public class ProductVO implements Serializable {
 
     @JsonProperty("name")
-    private String catagoryName;
+    private String categoryName;
 
     @JsonProperty("type")
     private Integer categoryType;

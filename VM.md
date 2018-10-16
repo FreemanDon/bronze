@@ -14,6 +14,9 @@
 * 安装 yum -y install docker-io
 * 启动 systemctl start docker.service
 
+#### rabbitmq 
+* 端口 8082
+
 ##### jdk T
 * 路径 /usr/local/jdk1.8.0_65
 * 安装说明  https://www.cnblogs.com/xuliangxing/p/7066913.html

@@ -15,6 +15,7 @@
         <module>bronze-product</module>
         <module>bronze-common</module>
         <module>bronze-order</module>
+        <module>bronze-config</module>
     </modules>
 
     <properties>
@@ -93,6 +94,12 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.49</version>
         </dependency>
 
     </dependencies>

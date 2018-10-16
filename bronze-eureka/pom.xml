@@ -4,8 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.donsj</groupId>
         <artifactId>bronze</artifactId>
+        <groupId>com.donsj</groupId>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>bronze-eureka</artifactId>

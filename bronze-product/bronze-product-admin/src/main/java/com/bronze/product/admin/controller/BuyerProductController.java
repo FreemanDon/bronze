@@ -54,7 +54,7 @@ public class BuyerProductController {
         for (ProductCategory productCategory : productCategoryList) {
             ProductVO productVO = new ProductVO();
             productVO.setCategoryType(productCategory.getCategoryType());
-            productVO.setCatagoryName(productCategory.getCategoryName());
+            productVO.setCategoryName(productCategory.getCategoryName());
 
             List<ProductInfoVO> productInfoVOList = new ArrayList<>();
             //遍历商品详情（productInfo）
