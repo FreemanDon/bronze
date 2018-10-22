@@ -1,9 +1,20 @@
 spring:
   application:
     name: bronze-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/FreemanDon/bronze.git
+          username: FreemanDon
+          password: 2a045f96a3b5767fb2c2e4527458c244
+#         如果使用用户名 密码登陆 下列一句必加
+          strict-host-key-checking: false
+          search-paths: classpath:/config/
 server:
   port: 8090
 eureka:
   client:
     service-url:
       defalutZone: http://localhost:8761/eureka
+
