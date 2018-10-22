@@ -1,6 +1,6 @@
 spring:
   application:
-    name: bronze-order-admin
+    name: bronze-order-admin-dev
 eureka:
   client:
     service-url:
