@@ -19,5 +19,11 @@
         <module>bronze-order-rpc-api</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
