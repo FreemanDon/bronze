@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bronze-product-admin
+  cloud:
+    config:
+      discovery:
+        service-id: BRONZE-CONFIG
+        enabled: true
+      profile: dev

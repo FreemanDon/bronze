@@ -13,6 +13,7 @@
 其中先通过ServerList获得所有有效的服务列表，后通过ServerListFilter过滤掉部分地址，后通过IRule选择一个实例作为最终目标结果
 
 ## Config
->+  img-storage/configlog.jpg  和  img-storage/configlog2.jpg
+>+ label:分支(默认master分支) name:服务名,profiles:环境, 
+img-storage/configlog.jpg  和  img-storage/configlog2.jpg
 
 
